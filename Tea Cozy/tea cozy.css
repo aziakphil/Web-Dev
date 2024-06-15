@@ -1,0 +1,152 @@
+*{
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.logo{
+    height: 50px;
+    margin-right: 10px auto; 
+    margin-left: auto;
+    
+}
+.header{
+    height: 69px;
+    width: 1240px;
+    box-sizing: border-box;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    justify-content: center;
+    background-size: cover;    
+}
+
+body{
+    width: 1250px;
+    height: 1000px;
+}
+.header ul{
+    display: flex;
+    float: right; 
+    justify-content: center;
+}
+
+.header ul li{
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 40px;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    display: block;
+}
+.header ul li a:hover{
+    background: white;
+    color: black;
+}
+
+.tof1{
+    max-height: 700px;
+    width: 1200px;
+    margin-top: 69px;
+    margin-right: 20px auto;
+    margin-left: 20px;
+}
+.text1{
+    box-sizing: border-box;
+    width: 1240px;
+    height: auto;
+    position: absolute;
+    bottom: 150px;
+    background-color: black;
+    background-size: cover;
+    z-index: 1;
+    opacity: 100%;
+}
+.text1 h2,h4{
+    text-align: center;
+    font-size: 18px;
+}
+.text1 h2{
+    font-size: 22px;
+}
+
+.groupe{
+    max-width: 1240px;
+}
+.groupe h2,h4{
+    text-align: center;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 1240px;
+    height: auto;
+    justify-items: center;
+}
+
+.groupe2{
+    max-width: 1000px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    column-gap: 20px;
+}
+.One img{
+    max-height: 200px;
+    max-width: 300px;
+    
+    justify-items: center;
+}
+.One .text2{
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.groupe3 img{
+ width: 1200px;
+ height: 500px;
+}
+
+
+.groupe3 h2{
+    text-align: center;
+    position: relative;
+    top: -500px;
+    z-index: -1;   
+    font-size: 22px;
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+.container1 div{
+    width: 300px;
+    height: auto;
+    position: relative;
+    top: -500px;
+    opacity: 1;  
+    text-align: center;
+    
+}
+
+footer .groupe4{
+    height: 200px;
+    width: auto;
+    position: relative;
+    top: -250px;
+    text-align: center;
+}
+footer{
+    margin:20px auto;
+    text-align: left;
+}
